@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task 5</title>
+</head>
+<body>
+	<h2>Task 5</h2>
+	<input type="text" id="inp1" placeholder="Enter No.">
+	<button type="button" id="b1" onclick="EvenOdd()">Print</button>
+	<p id="printing"></p>
+
+
+	<script type="text/javascript">
+		function EvenOdd(){
+			var a=parseInt(document.getElementById('inp1').value);
+			for(var i=0; i<=a; i++){
+				if(i%2==0){
+					
+				    document.write(i);
+				    document.write("\n\n\n Even <br />");
+
+				}else{
+				    document.write(i);
+				    document.write("\n\n\n Odd<br />");
+				}
+				
+			}
+		}
+	</script>
+
+
+
+
+</body>
+</html>

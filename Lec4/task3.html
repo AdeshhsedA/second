@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/task3.css">
+	
+	<title>Task 3</title>
+</head>
+<body>
+	<div class="box0" align="center">
+		<input type="text" id="num1">
+        <input type="text" id="num2">
+		
+	    <div class="resultbox">
+	    	<p id="resu"></p>
+	    	
+	    </div>
+	    <button type="button" id="add" onclick="b1()">+</button>
+        <button type="button" id="subtr" onclick="b2()">-</button>
+	    <button type="button" id="multiply" onclick="b3()">x</button>
+        <button type="button" id="Divide" onclick="b4()">&divide</button>
+
+
+		
+	</div>
+	
+    
+
+	
+
+    <script type="text/javascript">
+    	function b1(){
+    		var a=parseFloat(document.getElementById("num1").value);
+    		var b=parseFloat(document.getElementById("num2").value);
+    		document.getElementById("resu").innerHTML=a+b;
+    	}
+    	function b2(){
+    		var c=parseFloat(document.getElementById("num1").value);
+    		var d=parseFloat(document.getElementById("num2").value);
+    		document.getElementById("resu").innerHTML=c-d;
+    	}
+    	function b3(){
+    		var e=parseFloat(document.getElementById("num1").value);
+    		var f=parseFloat(document.getElementById("num2").value);
+    		document.getElementById("resu").innerHTML=e*f;
+    	}
+
+    	function b4(){
+    		var g=parseInt(document.getElementById('num1').value);
+    		var h=parseInt(document.getElementById('num2').value);
+    		document.getElementById('resu').innerHTML=g/h;
+    	}
+
+    	
+
+
+    </script>
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.box0{
+			height:200px;
+			width:200px;
+			border:2px solid black;
+		}
+
+		#inp1{
+			height:50px;
+			width:190px;
+			border:2px solid black;
+			font-size: 25px;
+		}
+		#txt1{
+			font-size:25px;
+			font-weight:bold;
+		}
+
+	</style>
+	<title>Task 2</title>
+</head>
+<body>
+	<div class="box0" align="center">
+		<input type="text" id="inp1" placeholder="Enter Color Name" onkeyup="CColor()">
+	    <p id="txt1">Hello</p>
+	</div>
+	
+	<script type="text/javascript">
+
+		
+
+		function CColor(){
+			var a=document.getElementById('inp1').value;
+			if(a=="red"){
+				document.getElementById('txt1').style.color='red';
+				document.getElementById('inp1').style.background='red';
+			}else{
+				document.getElementById('txt1').style.color=a;
+				document.getElementById('inp1').style.background=a;
+			}
+
+
+		}
+
+
+
+	</script>
+
+
+</body>
+</html>

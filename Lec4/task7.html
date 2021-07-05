@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task 7</title>
+</head>
+<body>
+	<input type="text" id="row" placeholder="Enter No. of Rows:">
+	<button id="print" onclick="starPattern()">Print</button>
+	<p id="show"></p>
+
+	<script type="text/javascript">
+		
+		function starPattern(){
+			var a=parseInt(document.getElementById('row').value);
+			var b=0;
+			for(var i=0; i<a; i++){
+				for(var j=0; j<2*a-1 ; j++){
+					if(j>=a-1-i && j<=a-1+i ){
+						document.write("*");
+						++b;
+					}
+					else{
+						document.write("&nbsp&nbsp");
+					}
+				}
+				document.write("<br />");
+			}
+			document.write("No. of Rows: &nbsp&nbsp");
+			document.write(a);
+			document.write("<br /> No. of Stars: &nbsp&nbsp");
+			document.write(b);
+
+
+		}
+	</script> 
+
+</body>
+</html>

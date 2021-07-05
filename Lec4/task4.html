@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		img{
+			width:49.8%;
+			height:320px;
+			display:none;
+		}
+
+		button{
+			width:100px;
+			height:30px;
+			border:3px solid;
+		}
+	</style>
+	<title>Task 4</title>
+</head>
+<body>
+	<img src="images/nature.jpg" id="img1">
+	<img src="images/hot-air-balloons.jpg" id="img2">
+	<button type="button" id="b1" onclick="show1()">Show Img 1</button>
+	&nbsp
+	&nbsp
+	<button type="button" id="b2" onclick="show2()">Show Img 2</button>
+	<script type="text/javascript">
+		function show1(){
+			document.getElementById("img1").style.display='inline-block';
+		}
+
+		function show2(){
+			document.getElementById("img2").style.display='inline-block';
+		}
+	</script>
+
+
+</body>
+</html>
