@@ -1,0 +1,37 @@
+.margin {
+ margin-top:49px;
+}
+
+.navbar {
+    background:rgb(253, 58, 58) !important;
+    
+}
+
+
+
+.navbar-nav li a, .navbar-brand{
+    color:white !important;
+}
+
+.srchbox{
+    border:0px;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius:20px;
+}
+
+.srchbtn{
+    border:0px;
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+    background:rgb(77, 31, 243);
+    color:white;
+}
+
+.srchbtn:hover{
+    background:rgb(130, 130, 255);
+}
+
+.srch{
+    margin-top:5.5%;
+}
+

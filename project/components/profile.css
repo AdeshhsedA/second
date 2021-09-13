@@ -1,0 +1,47 @@
+.pnav{
+    height:100% !important;
+    width:20% !important;
+    background:rgb(19, 186, 252) !important;
+    
+}
+
+.navcontainer{
+    margin-top:30% !important;
+}
+
+
+
+
+.navlist{
+    margin-top:15% !important;
+    text-align: center;    
+}
+
+
+.username{
+    font-size: 40px !important;
+    text-align: center;
+    color:black !important;
+}
+
+.listitem{
+    color:black !important;
+}
+
+.userdatabox{
+    text-align:left;
+    font-size:20px;
+    margin-top:20%;
+}
+
+/* .arrowleft{
+    font-size:20px;
+    padding:5px;
+    border:4px solid white;
+    border-radius:40px;
+} */
+
+.homebtn{
+    font-size: 20px;
+}
+
